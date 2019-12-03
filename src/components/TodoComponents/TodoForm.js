@@ -24,7 +24,7 @@ class TodoForm extends React.Component {
     console.log('rendering form');
     return (
       <form onSubmit={this.handleSubmit}>
-        <input
+        <input 
           value={this.state.newItem}
           onChange={this.handleChanges}
           type="text"
