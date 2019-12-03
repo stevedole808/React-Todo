@@ -52,7 +52,7 @@ class App extends Component {
   
   clearTodo = () => {
     this.setState({
-      todo: this.state.todo.filter(item => !item.completed !== true)
+      todo: this.state.todo.filter(item => !item.completed !== false)
     });
   };
 
